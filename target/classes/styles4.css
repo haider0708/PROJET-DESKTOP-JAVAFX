@@ -1,0 +1,15 @@
+#btnSearch {
+    -fx-background-color: linear-gradient(to bottom, #2196F3, #1020ef); /* Dégradé de couleur pour le fond */
+    -fx-background-radius: 5; /* Rayon des coins */
+    -fx-border-radius: 5; /* Rayon des coins pour la bordure */
+    -fx-text-fill: white; /* Couleur du texte */
+    -fx-font-weight: bold; /* Gras */
+    -fx-padding: 8 16; /* Marge intérieure */
+    -fx-font-size: 14px; /* Taille de la police */
+    -fx-border-width: 1px; /* Épaisseur de la bordure */
+    -fx-border-color: #2196F3; /* Couleur de la bordure */
+}
+
+#btnSearch:hover {
+    -fx-background-color: linear-gradient(to bottom, #1020ef, #2196F3); /* Changement de couleur au survol */
+}

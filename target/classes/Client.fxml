@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="546.0" prefWidth="1066.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ClientViewController">
+    <VBox fx:id="mainVBox" prefHeight="546.0" prefWidth="624.0" spacing="20" style="-fx-padding: 10;">
+        <TableView fx:id="eventTable" prefHeight="200.0" prefWidth="600.0">
+            <columns>
+                <TableColumn fx:id="colTitle" prefWidth="150.0" text="Title" />
+                <TableColumn fx:id="colDate" prefWidth="150.0" text="Date" />
+                <TableColumn fx:id="colLocation" prefWidth="300.0" text="Location" />
+            </columns>
+        </TableView>
+        <Label text="Activities for Selected Event:" />
+        <ListView fx:id="activityListView" prefHeight="160.0" prefWidth="600.0" />
+        <Button onAction="#handleChatbotButton" style="-fx-pref-width: 200;" text="Open Chatbot" />
+        <Button fx:id="btnmap" layoutX="689.0" style="-fx-pref-width: 200;" layoutY="57.0" mnemonicParsing="false" text="Find us here !" onAction="#showmap" />
+    </VBox>
+
+</AnchorPane>

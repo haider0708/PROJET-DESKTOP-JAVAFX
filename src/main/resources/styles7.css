@@ -1,0 +1,47 @@
+/* Style pour la zone de chat */
+.chat-area {
+    -fx-font-size: 14px;
+    -fx-font-family: Arial, sans-serif;
+    -fx-text-fill: #333333; /* Couleur du texte */
+    -fx-background-color: #f2f2f2; /* Couleur de fond */
+}
+
+/* Style pour le champ de saisie */
+.input-field {
+    -fx-font-size: 14px;
+    -fx-font-family: Arial, sans-serif;
+    -fx-prompt-text-fill: #aaaaaa; /* Couleur du texte d'invite */
+}
+
+/* Style pour le bouton */
+.send-button {
+    -fx-font-size: 14px;
+    -fx-font-family: Arial, sans-serif;
+    -fx-text-fill: #ffffff; /* Couleur du texte */
+    -fx-background-color: #007bff; /* Couleur de fond */
+    -fx-padding: 8px 16px; /* Espacement interne */
+}
+
+/* Style pour les messages de l'utilisateur */
+.user-message {
+    -fx-font-size: 14px;
+    -fx-font-family: Arial, sans-serif;
+    -fx-text-fill: #333333; /* Couleur du texte */
+    -fx-background-color: #e6f7ff; /* Couleur de fond */
+    -fx-padding: 8px; /* Espacement interne */
+    -fx-border-color: #007bff; /* Couleur de la bordure */
+    -fx-border-width: 1px; /* Largeur de la bordure */
+    -fx-border-radius: 5px; /* Rayon de la bordure */
+}
+
+/* Style pour les messages du chatbot */
+.bot-message {
+    -fx-font-size: 14px;
+    -fx-font-family: Arial, sans-serif;
+    -fx-text-fill: #007bff; /* Couleur du texte */
+    -fx-background-color: #e6f7ff; /* Couleur de fond */
+    -fx-padding: 8px; /* Espacement interne */
+    -fx-border-color: #007bff; /* Couleur de la bordure */
+    -fx-border-width: 1px; /* Largeur de la bordure */
+    -fx-border-radius: 5px; /* Rayon de la bordure */
+}

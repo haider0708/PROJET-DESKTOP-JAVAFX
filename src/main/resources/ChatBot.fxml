@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ChatBot" prefWidth="800" prefHeight="600" stylesheets="ChatBot_style.css">    <top>
+        <HBox styleClass="header">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+            <children>
+                <ImageView fitHeight="40" fitWidth="40">
+                    <image>
+                        <Image url="https://img.freepik.com/vecteurs-libre/chatbot-est-vecteur-message_78370-4104.jpg" />
+                    </image>
+                </ImageView>
+                <Label text="Chatbot" styleClass="header-label"/>
+            </children>
+        </HBox>
+    </top>
+    <center>
+        <VBox fx:id="messageContainer" spacing="10" styleClass="chat-container">
+            <HBox fx:id="userMessageContainer" styleClass="user-message-container" visible="false">
+                <Label fx:id="userText" styleClass="message-label"/>
+            </HBox>
+            <HBox fx:id="chatbotMessageContainer" styleClass="chatbot-message-container" visible="false">
+                <Label fx:id="chatbotText" styleClass="message-label"/>
+            </HBox>
+        </VBox>
+    </center>
+    <bottom>
+        <HBox styleClass="input-container" spacing="10">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+            <children>
+                <TextField fx:id="messageField" promptText="Type your message here..." HBox.hgrow="ALWAYS" styleClass="input-field" />
+                <Button fx:id="sendButton" text="Send" onAction="#sendMessage" styleClass="send-button"/>
+                <Button fx:id="backButton" text="Back" onAction="#handleBack" styleClass="back-button"/>
+            </children>
+        </HBox>
+    </bottom>
+</BorderPane>
+
+
+
+

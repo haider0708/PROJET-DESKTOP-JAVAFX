@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.AjouterlivreurController">
+   <children>
+      <Pane fx:id="pnlMenus" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="868.0" prefWidth="1077.0">
+         <children>
+            <Button layoutX="808.0" layoutY="261.0" mnemonicParsing="false" onAction="#nav" prefHeight="44.0" prefWidth="180.0" style="-fx-background-radius: 30;" text="Affichage commandes" textFill="#ff7b4a" />
+            <Button layoutX="294.0" layoutY="315.0" mnemonicParsing="false" onAction="#pdfabonn" prefHeight="44.0" prefWidth="180.0" style="-fx-background-radius: 30;" text="pdf" textFill="#ff7b4a" />
+            <TextField fx:id="numerotelField" layoutX="61.0" layoutY="640.0" prefHeight="35.0" prefWidth="126.0" promptText="num tel" style="-fx-background-radius: 30;">
+               <font>
+                  <Font size="14.0" />
+               </font></TextField>
+            <TextField fx:id="imageevField" layoutX="65.0" layoutY="384.0" prefHeight="35.0" prefWidth="118.0" promptText="Image livreur" style="-fx-background-radius: 30;">
+               <font>
+                  <Font size="14.0" />
+               </font></TextField>
+            <TextField fx:id="nomevField" layoutX="61.0" layoutY="475.0" prefHeight="35.0" prefWidth="126.0" promptText="nom" style="-fx-background-radius: 30;">
+               <font>
+                  <Font size="14.0" />
+               </font></TextField>
+            <TextField fx:id="prenomevField" layoutX="61.0" layoutY="554.0" prefHeight="35.0" prefWidth="126.0" promptText="prenom" style="-fx-background-radius: 30;">
+               <font>
+                  <Font size="14.0" />
+               </font></TextField>
+            <Button fx:id="supprimerBoutton" layoutX="817.0" layoutY="638.0" mnemonicParsing="false" onAction="#supprimerlivreur" prefHeight="44.0" prefWidth="180.0" style="-fx-background-radius: 30;" text="SUPPRIMER" textFill="RED" />
+            <Button fx:id="ajouterButton" layoutX="817.0" layoutY="384.0" mnemonicParsing="false" onAction="#ajouterlivreur" prefHeight="44.0" prefWidth="180.0" style="-fx-background-radius: 30;" text="AJOUTER" textFill="#f80000" />
+            <Button fx:id="modifierBoutton" layoutX="817.0" layoutY="510.0" mnemonicParsing="false" onAction="#modifierlivreur" prefHeight="44.0" prefWidth="180.0" style="-fx-background-radius: 30;" text="MODIFIER" textFill="RED" />
+            <Button layoutX="194.0" layoutY="380.0" mnemonicParsing="false" onAction="#uploadImage" prefHeight="44.0" prefWidth="65.0" text="upload" textFill="RED" />
+            <TableView fx:id="livreurTv" layoutX="285.0" layoutY="367.0" onMouseClicked="#choisirev" prefHeight="344.0" prefWidth="507.0" style="-fx-background-color: #FFE4B5;">
+               <columns>
+                  <TableColumn fx:id="imageevTv" minWidth="9.599945068359375" prefWidth="123.0" text="IMAGE livreur" />
+                  <TableColumn fx:id="nomevTv" prefWidth="120.0" text="nom" />
+                  <TableColumn fx:id="prenomevTv" prefWidth="129.0" text="prenom" />
+                  <TableColumn fx:id="numerotelTv" minWidth="0.0" prefWidth="131.0" text="numerotel" />
+               </columns>
+            </TableView>
+            <TextField fx:id="rechercher" layoutX="631.0" layoutY="337.0" onKeyPressed="#rechercherev" prefHeight="25.0" prefWidth="161.0" promptText="chercher par NOM " />
+            <TextField fx:id="idmodifierField" layoutX="424.0" layoutY="314.0" opacity="0.0" prefHeight="35.0" prefWidth="99.0" promptText="Id livreur" style="-fx-background-radius: 30;" />
+            <ImageView fx:id="imageview" fitHeight="184.0" fitWidth="350.0" layoutX="633.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="QrCode" fitHeight="197.0" fitWidth="281.0" layoutX="43.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true" />
+            <Button fx:id="stat" layoutX="818.0" layoutY="714.0" mnemonicParsing="false" onMouseClicked="#stat" prefHeight="44.0" prefWidth="180.0" style="-fx-background-radius: 30;" text="Stat" textFill="RED" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

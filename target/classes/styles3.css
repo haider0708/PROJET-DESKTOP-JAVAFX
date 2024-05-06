@@ -1,0 +1,23 @@
+.statistique-button {
+    -fx-background-color: #4CAF50; /* Couleur de fond */
+    -fx-text-fill: white; /* Couleur du texte */
+    -fx-font-size: 16px; /* Taille de police */
+    -fx-font-weight: bold; /* Police en gras */
+    -fx-padding: 12px 24px; /* Espacement interne */
+    -fx-border-radius: 30px; /* Bord arrondi */
+    -fx-background-radius: 30px; /* Bord arrondi du fond */
+    -fx-border-color: #388E3C; /* Couleur de la bordure */
+    -fx-border-width: 2px; /* Largeur de la bordure */
+    -fx-cursor: hand; /* Curseur de la souris */
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 ); /* Effet d'ombre */
+    -fx-transition: all 0.3s ease; /* Animation de transition */
+}
+
+.statistique-button:hover {
+    -fx-background-color: #45a049; /* Couleur de fond au survol */
+}
+
+.statistique-button:pressed {
+    -fx-background-color: #388E3C; /* Couleur de fond lorsque pressé */
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.8) , 5, 0.0 , 0 , 1 ); /* Effet d'ombre lorsque pressé */
+}

@@ -1,0 +1,80 @@
+.button
+{
+    -fx-background-color : #ffffff;
+    -fx-text-fill : #656673;
+    -fx-background-radius: 20;
+    -fx-padding: 8 15;
+}
+.button:hover{
+    -fx-background-color: #a7cbff;
+    -fx-text-fill : #1020ef;
+}
+.button:pressed
+{
+    -fx-background-color : #1620A1;
+}
+
+.scroll-pane {
+    -fx-background-color: #f2f2f3;
+}
+
+.scroll-bar:horizontal, .scroll-bar:vertical{
+    -fx-background-color:transparent;
+}
+
+.increment-button, .decrement-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #f2f2f3;
+    -fx-background-radius: 5em;
+}
+
+.scroll-pane > .corner {
+    -fx-background-color: black;
+
+
+}
+
+.textarea{
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-background-radius: 20;
+    -fx-border-color: #2196F3;
+    -fx-border-radius: 20;
+    -fx-border-width: 1px;
+}
+.textarea:focused {
+    -fx-border-color: #ffffff;
+}
+.choicebox {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-background-radius: 20;
+    -fx-border-color: #2196F3;
+    -fx-border-radius: 20;
+    -fx-border-width: 1px;
+}
+
+.choicebox:hover,
+.choicebox:focused {
+    -fx-border-color: #1976D2;
+}
+
+.table_view .column-header {
+    -fx-background-color: black;
+}
+.table_view .table-row-cell {
+    -fx-border-color: white;
+}
+

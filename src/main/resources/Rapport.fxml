@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="617.0" prefWidth="883.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.RapportController">
+    <children>
+        <VBox layoutX="150.0" layoutY="91.0" prefHeight="347.0" prefWidth="258.0" spacing="20.0" styleClass="container" stylesheets="@styles2.css">
+            <children>
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="note" wrappingWidth="33.0" />
+                <TextField fx:id="tNote" prefHeight="51.0" prefWidth="214.0" />
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Type" wrappingWidth="40.623809814453125" />
+                <ChoiceBox fx:id="tType1" prefHeight="53.0" prefWidth="107.0" />
+                <TextField fx:id="tType2" prefHeight="54.0" prefWidth="214.0" />
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="rdv_id" wrappingWidth="40.623809814453125" />
+                <ChoiceBox fx:id="tRdvId" prefHeight="53.0" prefWidth="102.0" />
+            </children>
+        </VBox>
+        <TableView fx:id="table2" layoutX="435.0" layoutY="145.0" prefHeight="312.0" prefWidth="435.0" stylesheets="@styles2.css">
+            <columns>
+                <TableColumn fx:id="colNote" prefWidth="152.0" text="Note" />
+                <TableColumn fx:id="colType" minWidth="0.0" prefWidth="140.800048828125" text="Type" />
+                <TableColumn fx:id="colRdvId" minWidth="0.0" prefWidth="140.800048828125" text="rdv_id" />
+            </columns>
+        </TableView>
+        <Label alignment="CENTER" layoutX="279.0" layoutY="24.0" prefHeight="66.0" prefWidth="268.0" styleClass="title" stylesheets="@styles2.css" text="CRUD RAPPORT">
+            <font>
+                <Font name="System Bold" size="80.0" />
+            </font>
+        </Label>
+        <ButtonBar layoutX="331.0" layoutY="490.0" prefHeight="91.0" prefWidth="366.0" stylesheets="styles2.css">
+            <buttons>
+                <Button fx:id="btnSave2" alignment="CENTER" mnemonicParsing="false" onAction="#CreateRapport" text="Save" textAlignment="CENTER" />
+                <Button fx:id="btnUpdate2" layoutX="135.0" layoutY="17.0" mnemonicParsing="false" onAction="#UpdateRapport" text="Update" />
+                <Button fx:id="btnDelete2" layoutX="164.0" layoutY="17.0" mnemonicParsing="false" onAction="#DeleteRapport" text="Delete" />
+            </buttons>
+        </ButtonBar>
+        <Button fx:id="btnSearch" layoutX="623.0" layoutY="91.0" mnemonicParsing="false" onAction="#searchRapports" stylesheets="@styles4.css" text="Rechercher" />
+        <TextField fx:id="textFieldSearch" layoutX="435.0" layoutY="91.0" prefHeight="38.0" prefWidth="178.0" promptText="Entrez le mot-clé de recherche" />
+        <Button fx:id="tPdf" layoutX="732.0" layoutY="475.0" mnemonicParsing="false" onAction="#generatePDF" prefHeight="42.0" prefWidth="133.0" styleClass="button-pdf" stylesheets="@styles5.css" text="generate pdf " />
+        <PieChart fx:id="pieChart" layoutX="113.0" layoutY="443.0" prefHeight="159.0" prefWidth="210.0" />
+
+    </children>
+</AnchorPane>

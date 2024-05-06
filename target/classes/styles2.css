@@ -1,0 +1,82 @@
+/* Styles pour le fond de l'interface */
+.root {
+    -fx-background-color: linear-gradient(to bottom, #1620A1, #2196F3);
+}
+
+/* Styles pour le titre */
+.title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #fff;
+    -fx-alignment: center;
+    -fx-padding: 20px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 10, 0, 0, 0); /* Ajoute une ombre portée */
+}
+
+/* Styles pour le conteneur principal */
+.container {
+    -fx-spacing: 10px;
+    -fx-padding: 20px;
+    -fx-background-color: rgba(255, 255, 255, 0.8);
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-border-color: #2196F3;
+    -fx-border-width: 2px;
+}
+
+/* Styles pour les labels */
+.label {
+    -fx-font-size: 24px; /* Légèrement réduit la taille de police */
+    -fx-text-fill: #1620A1;
+}
+
+/* Styles pour les textfields */
+.text-field {
+    -fx-font-size: 14px;
+    -fx-background-color: rgba(255, 255, 255, 0.5);
+    -fx-background-radius: 5px; /* Ajoute une légère bordure arrondie */
+    -fx-border-radius: 5px;
+    -fx-border-color: #2196F3; /* Couleur de bordure rose */
+    -fx-border-width: 1px;
+}
+
+/* Styles pour le choix de boîte */
+.choice-box {
+    -fx-font-size: 14px;
+    -fx-background-color: rgba(255, 255, 255, 0.5);
+    -fx-background-radius: 5px; /* Ajoute une légère bordure arrondie */
+    -fx-border-radius: 5px;
+    -fx-border-color: #2196F3; /* Couleur de bordure rose */
+    -fx-border-width: 1px;
+}
+
+/* Styles pour le bouton */
+.button {
+    -fx-font-size: 16px;
+    -fx-background-color: linear-gradient(to bottom, #1020ef, #1620A1);
+    -fx-text-fill: #fff;
+    -fx-background-radius: 5px;
+    -fx-padding: 10px 20px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 5, 0, 0, 0); /* Ombre portée plus subtile */
+}
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom, #2196F3, #1020ef);
+}
+
+/* Styles pour la table view */
+.table-view .label {
+    -fx-text-fill: #000;
+    -fx-font-size: 16px; /* Légèrement augmenté la taille de police */
+}
+
+/* Styles pour les boutons dans ButtonBar */
+.button-bar .button {
+    -fx-font-size: 16px;
+    -fx-background-color: #1620A1;
+    -fx-text-fill: #fff;
+    -fx-background-radius: 5px;
+    -fx-padding: 10px 20px;
+}
+.button-bar .button:hover {
+    -fx-background-color: #1020ef; /* Changement de couleur au survol */
+}

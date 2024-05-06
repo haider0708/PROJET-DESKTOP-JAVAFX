@@ -1,0 +1,17 @@
+.button-sms {
+    -fx-background-color:
+            linear-gradient(to bottom, #1020ef 0%, #1620A1 100%), /* Dégradé de couleur */
+            #1020ef; /* Couleur de base */
+    -fx-background-insets: 0, 2; /* Ajustement de l'espacement */
+    -fx-background-radius: 5, 4; /* Rayon du coin */
+    -fx-text-fill: white; /* Couleur du texte en blanc */
+    -fx-font-size: 14px; /* Taille de la police */
+    -fx-font-weight: bold; /* Gras */
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 ); /* Ombre portée */
+}
+
+.button-sms:hover {
+    -fx-background-color:
+            linear-gradient(to bottom, #1620A1 0%, #2196F3 100%), /* Dégradé de couleur au survol */
+            #1020ef; /* Couleur de base au survol */
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.cell.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="701.0" stylesheets="@styles2.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ActivityController">
+    <TextField fx:id="nomField" layoutX="27.0" layoutY="50.0" prefWidth="150" promptText="Name" />
+    <TextField fx:id="statusField" layoutX="193.0" layoutY="50.0" prefWidth="150" promptText="Status" />
+    <TextField fx:id="descriptionField" layoutX="358.0" layoutY="50.0" prefWidth="150" promptText="Description" />
+    <TextField fx:id="organisateurField" layoutX="517.0" layoutY="50.0" prefWidth="150" promptText="Organizer" />
+    <ComboBox fx:id="eventComboBox" layoutX="27.0" layoutY="103.0" prefWidth="200" />
+
+    <HBox layoutX="260" layoutY="100" spacing="10">
+        <Button fx:id="addActivityButton" onAction="#handleAddActivity" styleClass="button, add-button" text="Add Activity" />
+        <Button fx:id="updateActivityButton" onAction="#handleUpdateActivity" styleClass="button, update-button" text="Update Activity" />
+        <Button fx:id="deleteActivityButton" onAction="#handleDeleteActivity" styleClass="button, delete-button" text="Delete Activity" />
+    </HBox>
+
+    <TableView fx:id="activityTable" layoutX="21.0" layoutY="151.0" prefHeight="200.0" prefWidth="643.0">
+        <columns>
+            <TableColumn fx:id="colActivityID" prefWidth="54.0000114440918" text="ID">
+                <cellValueFactory><PropertyValueFactory property="id" /></cellValueFactory>
+            </TableColumn>
+            <TableColumn fx:id="colActivityName" prefWidth="109.39999389648438" text="Name">
+                <cellValueFactory><PropertyValueFactory property="nom" /></cellValueFactory>
+            </TableColumn>
+            <TableColumn fx:id="colStatus" prefWidth="101.80000305175781" text="Status">
+                <cellValueFactory><PropertyValueFactory property="status" /></cellValueFactory>
+            </TableColumn>
+            <TableColumn fx:id="colDescription" prefWidth="132.5999755859375" text="Description">
+                <cellValueFactory><PropertyValueFactory property="description" /></cellValueFactory>
+            </TableColumn>
+            <TableColumn fx:id="colOrganizer" prefWidth="113.20001220703125" text="Organizer">
+                <cellValueFactory><PropertyValueFactory property="organisateur" /></cellValueFactory>
+            </TableColumn>
+            <TableColumn fx:id="colEventName" prefWidth="135.5999755859375" text="Event Name">
+                <cellValueFactory><PropertyValueFactory property="eventName" /></cellValueFactory>
+            </TableColumn>
+        </columns>
+    </TableView>
+</AnchorPane>

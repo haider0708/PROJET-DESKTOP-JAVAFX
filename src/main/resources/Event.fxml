@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.cell.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="934.0" stylesheets="styles2.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.EventController">
+    <Label layoutX="218.0" layoutY="21.0" styleClass="label" />
+
+    <TableView fx:id="eventTable" layoutX="45.0" layoutY="160.0" prefHeight="300.0" prefWidth="500.0" styleClass="table-view">
+        <columns>
+            <TableColumn prefWidth="89.00000381469727" styleClass="table-column" text="ID Event">
+                <cellValueFactory>
+                    <PropertyValueFactory property="id" />
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="98.20001220703125" styleClass="table-column" text="Titre Event">
+                <cellValueFactory>
+                    <PropertyValueFactory property="titre" />
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="181.3999786376953" styleClass="table-column" text="Localisation Event">
+                <cellValueFactory>
+                    <PropertyValueFactory property="localisation" />
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn prefWidth="109.0" styleClass="table-column" text="Date Event">
+                <cellValueFactory>
+                    <PropertyValueFactory property="date" />
+                </cellValueFactory>
+            </TableColumn>
+        </columns>
+    </TableView>
+
+    <TextField fx:id="titreField" layoutX="50.0" layoutY="50.0" prefWidth="150.0" promptText="Titre" styleClass="text-field" />
+    <TextField fx:id="localisationField" layoutX="220.0" layoutY="50.0" prefWidth="150.0" promptText="Localisation" styleClass="text-field" />
+    <DatePicker fx:id="datePicker" layoutX="390.0" layoutY="50.0" prefWidth="150.0" styleClass="text-field" />
+
+    <Button layoutX="68.0" layoutY="85.0" onAction="#handleAddEvent" styleClass="add-button" text="Add Event" />
+    <Button fx:id="updateButton" layoutX="227.0" layoutY="85.0" onAction="#handleUpdateEvent" styleClass="update-button" text="Update Event" />
+    <Button fx:id="deleteButton" layoutX="397.0" layoutY="85.0" onAction="#handleDeleteEvent" styleClass="delete-button" text="Delete Event" />
+    <TextField fx:id="phoneNumberField" layoutX="50.0" layoutY="489.0" prefWidth="200.0" promptText="Enter Phone Number" styleClass="text-field" />
+    <Button layoutX="260.0" layoutY="476.0" onAction="#handleSendSms" styleClass="button" text="Send SMS" />
+    <PieChart fx:id="pieChart" layoutX="579.0" layoutY="152.0" prefHeight="267.0" prefWidth="354.0" />
+    <Button fx:id="generatePdfButton" layoutX="50.0" layoutY="530.0" onAction="#handleGenerateStyledPdf" text="Generate PDF" />
+    <ImageView fx:id="qrCodeView" fitHeight="163.0" fitWidth="188.0" layoutX="662.0" layoutY="461.0" preserveRatio="true" />
+    <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="label" text="Text" />
+</AnchorPane>

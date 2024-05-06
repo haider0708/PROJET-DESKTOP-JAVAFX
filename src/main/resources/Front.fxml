@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1333.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.Front">
+   <top>
+      <HBox prefHeight="60.0" prefWidth="200.0" styleClass="root" stylesheets="@Front.css" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" prefHeight="60.0" prefWidth="265.0" text="DEVLAB" textFill="#50d735">
+               <font>
+                  <Font name="Bell MT" size="27.0" />
+               </font>
+            </Label>
+            <Separator orientation="VERTICAL" prefHeight="60.0" prefWidth="27.0" style="-fx-background-color: transparent;" styleClass="Transparents" stylesheets="@Front.css" />
+            <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" prefHeight="27.0" prefWidth="254.0" styleClass="round-layout" stylesheets="@Front.css">
+               <children>
+                  <TextField alignment="BASELINE_CENTER" prefHeight="25.0" prefWidth="217.0" promptText="Search" styleClass="Transparents" stylesheets="@Front.css">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin></TextField>
+               </children>
+               <HBox.margin>
+                  <Insets top="18.0" />
+               </HBox.margin>
+            </HBox>
+            <Separator orientation="VERTICAL" prefHeight="60.0" prefWidth="482.0" styleClass="Transparents" stylesheets="@Front.css" />
+            <HBox alignment="CENTER_RIGHT" prefHeight="60.0" prefWidth="367.0">
+               <children>
+                  <Text fx:id="username" strokeType="OUTSIDE" strokeWidth="0.0" text="HAIDER BOUDHRIWA" textAlignment="CENTER" wrappingWidth="149.826171875">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Arial Black" size="12.0" />
+                     </font>
+                  </Text>
+                  <ImageView fx:id="userimage" fitHeight="44.0" fitWidth="94.0" pickOnBounds="true" preserveRatio="true">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                     <image>
+                        <Image url="@images/jimmy-fallon.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+   </top>
+   <left>
+      <VBox prefHeight="200.0" prefWidth="250.0" styleClass="root" stylesheets="@Front.css" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="477.0" prefWidth="250.0">
+               <children>
+                  <Label prefHeight="17.0" prefWidth="189.0" text="Categories">
+                     <VBox.margin>
+                        <Insets left="10.0" top="20.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" minHeight="-Infinity" onMouseClicked="#Produit" prefHeight="50.0" prefWidth="230.0" styleClass="mouse-moved" stylesheets="@Front.css">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/products.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets right="7.0" />
+                           </HBox.margin></ImageView>
+                        <Label text="Produits">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="22.0" />
+                           </font></Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" top="10.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="27.0" maxHeight="-Infinity" minHeight="-Infinity" onMouseClicked="#Pharmacie" prefHeight="50.0" prefWidth="200.0" styleClass="mouse-moved" stylesheets="@Front.css">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/pharmacy.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets right="7.0" />
+                           </HBox.margin></ImageView>
+                        <Label text="Pharmacie">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="22.0" />
+                           </font></Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox fx:id="btnEvent" alignment="CENTER_LEFT" layoutX="10.0" layoutY="27.0" maxHeight="-Infinity" minHeight="-Infinity" onMouseClicked="#event" prefHeight="50.0" prefWidth="200.0" styleClass="mouse-moved" stylesheets="@Front.css">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/birthday-cake.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets right="7.0" />
+                           </HBox.margin></ImageView>
+                        <Label text="Evennements">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="22.0" />
+                           </font></Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="27.0" maxHeight="-Infinity" minHeight="-Infinity" onMouseClicked="#Rendezvous" prefHeight="50.0" prefWidth="200.0" styleClass="mouse-moved" stylesheets="@Front.css">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/medical-appointment.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets right="7.0" />
+                           </HBox.margin></ImageView>
+                        <Label text="Rendez-Vous">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="22.0" />
+                           </font></Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="477.0" maxHeight="-Infinity" minHeight="-Infinity" onMouseClicked="#Livraison" prefHeight="50.0" prefWidth="200.0" styleClass="mouse-moved" stylesheets="@Front.css">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/fast-delivery.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets right="7.0" />
+                           </HBox.margin></ImageView>
+                        <Label text="Livraison">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="22.0" />
+                           </font></Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="20.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" onMouseClicked="#Setting" prefHeight="50.0" prefWidth="200.0" styleClass="mouse-moved" stylesheets="@Front.css">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/cogwheel.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets right="7.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <Label text="Settings">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="22.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="20.0" right="20.0" />
+                     </VBox.margin>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <Pane fx:id="Pane" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="733.0" prefWidth="932.0" styleClass="form_container" stylesheets="@table.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.AjouterProduitFXML">
+   <children>
+      <TextField fx:id="tfNom" layoutX="127.0" layoutY="480.0" />
+      <Text layoutX="19.0" layoutY="497.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nom" />
+      <Text layoutX="23.0" layoutY="547.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Prix" />
+      <TextField fx:id="tfPrix" layoutX="127.0" layoutY="529.0" />
+      <Text layoutX="16.0" layoutY="585.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Description" />
+      <TextField fx:id="tfDescription" layoutX="127.0" layoutY="567.0" />
+      <Button fx:id="btnajouter" layoutX="579.0" layoutY="491.0" mnemonicParsing="false" onAction="#ajouterProduit" prefHeight="26.0" prefWidth="71.0" style="-fx-background-color: #2f3593; -fx-text-fill: white;" text="Ajouter" />
+      <TableView fx:id="table" layoutX="13.0" layoutY="154.0" onMouseClicked="#getData" prefHeight="262.0" prefWidth="905.0">
+        <columns>
+          <TableColumn fx:id="colNom" prefWidth="182.40002155303955" text="Nom" />
+            <TableColumn fx:id="colPrix" prefWidth="186.40000915527344" text="Prix" />
+            <TableColumn fx:id="colDescription" minWidth="0.0" prefWidth="235.199951171875" text="Description" />
+            <TableColumn fx:id="colnomcategorie" prefWidth="277.5999755859375" text="nomcategorie" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnModifier" layoutX="579.0" layoutY="529.0" mnemonicParsing="false" onAction="#Modifier" prefHeight="26.0" prefWidth="71.0" style="-fx-background-color: #2f3593; -fx-text-fill: white;" text="Modifier" />
+      <Button fx:id="btnSupprimer" layoutX="579.0" layoutY="568.0" mnemonicParsing="false" onAction="#Supprimer" style="-fx-background-color: #2f3593; -fx-text-fill: white;" text="Supprimer" textFill="#695353" />
+      <Button fx:id="btnClear" layoutX="579.0" layoutY="606.0" mnemonicParsing="false" onAction="#clearFieled" prefHeight="26.0" prefWidth="71.0" style="-fx-background-color: #2f3593; -fx-text-fill: white;" text="clear" />
+      <Text layoutX="327.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #2f3593;" text="Crud Produit" textAlignment="CENTER" wrappingWidth="233.55938720703125" />
+      <ComboBox fx:id="combop" layoutX="127.0" layoutY="607.0" prefWidth="150.0" />
+      <Text layoutX="18.0" layoutY="624.0" strokeType="OUTSIDE" strokeWidth="0.0" text="categorie" wrappingWidth="83.36404800415039" />
+      <Text layoutX="24.0" layoutY="654.0" strokeType="OUTSIDE" strokeWidth="0.0" text="lien image " wrappingWidth="71.20000000000005" />
+      <Button fx:id="Parcourir" layoutX="102.0" layoutY="637.0" mnemonicParsing="false" onAction="#parcourirImage" style="-fx-background-color: #2f3593; -fx-text-fill: white;" text="..." />
+      <ImageView fx:id="image" fitHeight="150.0" fitWidth="200.0" layoutX="327.0" layoutY="505.0" pickOnBounds="true" preserveRatio="true" />
+      <TextField fx:id="imgField" layoutX="128.0" layoutY="637.0" />
+      <TextField fx:id="fieldFilter" layoutX="39.0" layoutY="95.0" />
+      <Button fx:id="btnstat" layoutX="671.0" layoutY="529.0" mnemonicParsing="false" onAction="#stat" prefHeight="26.0" prefWidth="71.0" style="-fx-background-color: #2f3593; -fx-text-fill: white;" text="stat" />
+      <ImageView fx:id="qrCodeImageView" fitHeight="150.0" fitWidth="150.0" layoutX="768.0" layoutY="459.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="generateQRButton" layoutX="809.0" layoutY="615.0" mnemonicParsing="false" onAction="#generateQRCode" style="-fx-background-color: #2f3593; -fx-text-fill: white;" text="QR CODE" />
+      <Button fx:id="generatePdfButton" layoutX="671.0" layoutY="576.0" mnemonicParsing="false" onAction="#handleGeneratePdfButton" style="-fx-background-color: #2f3593; -fx-text-fill: white;" text="Generate PDF" />
+   </children>
+</AnchorPane>

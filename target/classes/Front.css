@@ -1,0 +1,25 @@
+.root {
+    -fx-background-color: white;
+}
+.Transparents{
+    -fx-background-color: transparent;
+}
+.round-layout{
+        -fx-border-radius: 25;
+        -fx-border-color : #ff0000;
+}
+.selected{
+    -fx-background-color: #54c03a;
+}
+.mouse-moved:hover{
+    -fx-background-color: #606060;
+
+}
+.textarea-class {
+    -fx-background-color: transparent;
+    -fx-border-color: #0598ff;
+    -fx-border-width: 0px 0px 2px 0px;
+}
+.gradient {
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 100%, #00F260, #0575E6);
+}
