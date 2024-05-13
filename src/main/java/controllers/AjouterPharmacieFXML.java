@@ -162,7 +162,7 @@ public class AjouterPharmacieFXML implements Initializable {
         if (!validateInput(nom, adresse, numeroTelephone)) {
             return;
         }
-        String insert = "insert into pharmacie(Nom,Adresse,NumeroTelephone,img) values(?,?,?,?)";
+        String insert = "insert into pharmacie(Nom,Adresse,NumeroTelephone,image) values(?,?,?,?)";
         cnx=DBConnection.getInstance().getCnx();
         try{
             PreparedStatement pharmacie = cnx.prepareStatement(insert);
@@ -170,7 +170,7 @@ public class AjouterPharmacieFXML implements Initializable {
             pharmacie.setString(2,tfAdresse.getText());
             pharmacie.setInt(3, Integer.parseInt(tfNumero.getText()));
             pharmacie.setString(4,img);
-            AjoutPharmacieEmail("rania_driss@yahoo.com","");
+            AjoutPharmacieEmail("ahmedsaadani02@gmail.com","");
             pharmacie.executeUpdate();
             //clear();
             showAlert(Alert.AlertType.INFORMATION, "Ajout réussi", "La pharmacie a été ajoutée avec succès Verifier votre boite mail.");

@@ -17,7 +17,7 @@ public class ServicePharmacie implements CRUDP<Pharmacie> {
 
     @Override
     public void insertOne(Pharmacie pharmacie) throws SQLException {
-        String req = "INSERT INTO `pharmacie`(`nom`, `adresse`, `numerotelephone`,`img`) VALUES (?, ?, ?, ?)";
+        String req = "INSERT INTO `pharmacie`(`nom`, `adresse`, `numerotelephone`,`image`) VALUES (?, ?, ?, ?)";
         PreparedStatement ps = cnx.prepareStatement(req);
 
         ps.setString(1, pharmacie.getNom());
@@ -64,7 +64,7 @@ public class ServicePharmacie implements CRUDP<Pharmacie> {
             pharmacie.setNom(rs.getString("nom"));
             pharmacie.setAdresse(rs.getString("adresse"));
             pharmacie.setNumerotelephone(rs.getInt("numerotelephone"));
-            pharmacie.setImg((rs.getString("img")));
+            pharmacie.setImg((rs.getString("image")));
             pharmacies.add(pharmacie);
         }
 

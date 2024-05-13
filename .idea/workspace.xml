@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="25adf332-f8ac-4ca1-98ca-36a2f9f85568" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image_page_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/image_page_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/AjouterPharmacieFXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/AjouterPharmacieFXML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/AjouterProduitFXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/AjouterProduitFXML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/OrdonnanceFXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/OrdonnanceFXML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/EmailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/EmailSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/ServicePharmacie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/ServicePharmacie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/ConnectionDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/ConnectionDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controllers/AjouterPharmacieFXML.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controllers/AjouterPharmacieFXML.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controllers/AjouterProduitFXML.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controllers/AjouterProduitFXML.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controllers/OrdonnanceFXML.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controllers/OrdonnanceFXML.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/ServicePharmacie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/ServicePharmacie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/ConnectionDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/ConnectionDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tokens/StoredCredential" beforeDir="false" afterPath="$PROJECT_DIR$/tokens/StoredCredential" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2g3hawlq4fi2AabTY1MY6z8OGLI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.USER [org.openjfx:javafx-maven-plugin:0.0.8:run].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hayda/Downloads/TrayTester.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.23627907&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hayda\IdeaProjects\pidev finale\src\main\resources" />
+      <recent name="C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\utils" />
+      <recent name="C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\services" />
+      <recent name="C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\models" />
+      <recent name="C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\controllers" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="test.Main" />
+      <module name="USER" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="25adf332-f8ac-4ca1-98ca-36a2f9f85568" name="Changes" comment="" />
+      <created>1714932236173</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714932236173</updated>
+      <workItem from="1714932237359" duration="5198000" />
+      <workItem from="1714956397667" duration="1274000" />
+      <workItem from="1714963124077" duration="4479000" />
+      <workItem from="1714988107345" duration="3933000" />
+      <workItem from="1714993945844" duration="5000" />
+      <workItem from="1715513814399" duration="2696000" />
+      <workItem from="1715609898481" duration="12000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

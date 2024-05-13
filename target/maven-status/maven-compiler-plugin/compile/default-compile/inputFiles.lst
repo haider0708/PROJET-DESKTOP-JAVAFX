@@ -1,68 +1,79 @@
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\models\EmailSender.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\services\CRUDP.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\utils\ConnectionDB.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\controllers\Controller.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\controllers\Register.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\models\Pharmacie.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\controllers\EditProfil.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\controllers\AddUser.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\controllers\EventController.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\controllers\RendezvousController.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\services\ServiceOrdonnance.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\controllers\OrdonnanceFXML.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\models\user.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\utils\EmailUtil.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\controllers\Login.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\services\ServicePharmacie.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\services\CRUDORD.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\controllers\profil.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\test\Main.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\module-info.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\controllers\AjouterProduitFXML.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\controllers\frontProduit.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\controllers\stat.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\models\Activity.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\controllers\cardproduitcontroller.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\controllers\Front.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\controllers\CategorieFXML.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\controllers\NotificationApp.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\models\Produit.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\models\Rendezvous.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\services\CRUDc.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\models\ChatBot.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\services\ServiceActivity.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\services\GMailer.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\models\Panier.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\services\InfobipService.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\models\Payment.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\controllers\ClientViewController.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\controllers\PanierController.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\models\Ordonnance.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\controllers\SessionManager.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\controllers\StatO.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\controllers\RapportController.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\services\CRUD.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\models\Event.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\controllers\password.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\services\ServiceCategorie.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\services\StatistiqueServiceP.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\utils\Connection.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\controllers\ActivityController.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\services\ServiceProduit.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\controllers\ForgetPassword.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\controllers\frontPharmacie.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\controllers\TwoFactorAuth.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\models\SmsSender.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\models\Patient.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\controllers\View.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\controllers\CaptchaGenerator.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\services\StatistiqueService.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\utils\DBConnection.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\controllers\AjouterPharmacieFXML.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\models\Rapport.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\models\Categorie.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\services\Service.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\controllers\TwilioSMSFXML.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\controllers\ChatBot.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\services\ServiceEvent.java
-C:\Users\DRISS Manel\Downloads\wetransfer_pidev-v1-0-integration_2024-05-05_2012 (1)\pidev-v1.0-INTEGRATION\pidev-v1.0-INTEGRATION\src\main\java\controllers\cardpharmaciecontroller.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\services\ServiceActivity.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\services\commandeService.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\controllers\AjouterlivreurController.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\controllers\TwoFactorAuth.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\controllers\ChatBot.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\models\Event.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\controllers\frontPharmacie.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\controllers\ForgetPassword.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\models\commande.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\test\Main.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\controllers\AddUser.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\models\Activity.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\controllers\AffichercommandeController.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\controllers\StatO.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\controllers\SessionManager.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\utils\Connection.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\models\Pharmacie.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\controllers\AjouterProduitFXML.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\controllers\cardpharmaciecontroller.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\services\StatistiqueServiceP.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\models\user.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\utils\MyDB.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\controllers\OrdonnanceFXML.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\controllers\Front.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\controllers\ActivityController.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\controllers\EventController.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\services\ServiceOrdonnance.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\services\Service.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\controllers\livreurController.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\controllers\View.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\controllers\CaptchaGenerator.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\models\Rendezvous.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\controllers\PanierController.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\controllers\RapportController.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\services\CRUDP.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\services\livreurService.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\utils\EmailUtil.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\controllers\AfficherlivreurController.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\controllers\StatisticsController.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\services\InfobipService.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\models\Payment.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\controllers\NotificationApp.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\models\livreur.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\models\SmsSender.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\controllers\TwilioSMSFXML.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\controllers\Login.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\controllers\Controller.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\models\Categorie.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\models\EmailSender.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\services\ServiceCategorie.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\models\Patient.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\services\IlivreurService.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\utils\DBConnection.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\models\Rapport.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\controllers\Register.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\services\ServicePharmacie.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\controllers\CategorieFXML.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\controllers\profil.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\services\ServiceEvent.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\models\ChatBot.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\controllers\stat.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\controllers\password.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\services\GMailer.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\controllers\AjouterPharmacieFXML.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\services\CRUDc.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\services\ServiceProduit.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\utils\ConnectionDB.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\controllers\frontProduit.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\models\Panier.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\services\StatistiqueService.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\controllers\cardproduitcontroller.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\controllers\EditProfil.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\controllers\RendezvousController.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\services\CRUD.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\models\Produit.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\module-info.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\models\Ordonnance.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\controllers\ClientViewController.java
+C:\Users\hayda\IdeaProjects\pidev finale\src\main\java\services\CRUDORD.java

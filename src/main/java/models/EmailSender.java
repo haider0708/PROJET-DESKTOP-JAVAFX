@@ -17,7 +17,7 @@ public class EmailSender {
 
         // Informations d'authentification pour votre compte Gmail
         String username = "drissmanel6@gmail.com"; // Votre adresse e-mail Gmail
-        String password = "swdr trlo zjbc rjjh"; // Votre mot de passe Gmail
+        String password = "ozik nilu ousr feep"; // Votre mot de passe Gmail
 
         // Création de la session avec les informations d'authentification
         Session session = Session.getInstance(props, new Authenticator() {

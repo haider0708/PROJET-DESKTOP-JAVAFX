@@ -12,7 +12,7 @@ public class ConnectionDB {
 
     private ConnectionDB() {
         try {
-            this.cnx = DriverManager.getConnection("jdbc:mysql://localhost:3306/pidev", "root", "");
+            this.cnx = DriverManager.getConnection("jdbc:mysql://localhost:3306/integration", "root", "");
             System.out.println("Connected To DATABASE !");
         } catch (SQLException var2) {
             SQLException e = var2;

@@ -522,7 +522,7 @@ public class AjouterProduitFXML implements Initializable {
     @FXML
     void handleGeneratePdfButton(ActionEvent event) throws DocumentException {
         try {
-            String dest = "C:\\Users\\Ahmed Saadani\\Downloads\\simple_table.pdf";
+            String dest = "C:\\Users\\hayda\\Downloads\\simple_table.pdf";
             Document document = new Document();
             PdfWriter.getInstance(document, new FileOutputStream(dest));
 
